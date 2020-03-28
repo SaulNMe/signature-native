@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Intradocs Native",
+    "slug": "signature-app-v2",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "version": "1.0.1",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cotemar.intradocs"
+    },
+    "description": "added new screens",
+    "android": {
+      "package": "com.cotemar.intradocs"
+    }
+  }
+}
